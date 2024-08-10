@@ -2,7 +2,7 @@ export default function RootLayout({ children }) {
   return (
     <div className="min-h-screen flex flex-col bg-gray-900 text-white ">
       {/* Navbar */}
-      <nav className="navbar bg-base-100 shadow-md shadow-gray-800">
+      <nav className="navbar fixed bg-base-100 shadow-md shadow-gray-800">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -79,12 +79,12 @@ export default function RootLayout({ children }) {
       </nav>
 
       {/* Main Content Area */}
-      <main className="flex-grow overflow-auto bg-gray-800 p-6">
+      <main className="flex-grow mt-16 overflow-auto bg-gray-800 p-6">
         <div className="max-w-screen-2xl mx-auto">{children}</div>
       </main>
 
       {/* Footer */}
-      <footer className="bg-base-100 p-4 shadow-md shadow-gray-800">
+      <footer className="bg-base-100  p-4 shadow-md shadow-gray-800">
         <div className="max-w-screen-2xl mx-auto">
           <p>© 2024 Your Company. All rights reserved.</p>
         </div>

@@ -14,7 +14,7 @@ export default function Home() {
       <div>
         <h1 className="text-2xl font-bold">Welcome to the Home Page</h1>
         <p>This is the main content of the home page.</p>
-        <div dangerouslySetInnerHTML={{ __html: des }}>
+        <div className="formatted-content" dangerouslySetInnerHTML={{ __html: des }}>
         </div>
         
         <Tiptap des={des} setDes={setDes} />
