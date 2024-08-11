@@ -60,7 +60,7 @@ export default function Tiptap({ des, setDes }) {
         open modal
       </button>
       <dialog id="my_modal_editor" className="modal modal-bottom sm:modal-middle ">
-        <div className="model-box flex flex-col justify-center max-w-lg mx-auto bg-[#374151ad] p-8 rounded-lg">
+        <div className="model-box flex flex-col justify-center max-w-lg mx-auto bg-gray-900 border border-gray-500 p-8 rounded-lg">
           {/* Toolbar for text formatting */}
           <div className="flex space-x-2 mb-2 bg-gray-700 p-2 rounded-md shadow-md">
             <button
