@@ -1,3 +1,5 @@
+
+
 export default function RootLayout({ children }) {
   return (
     <div className="min-h-screen flex flex-col bg-gray-900 text-white ">
@@ -86,7 +88,7 @@ export default function RootLayout({ children }) {
       {/* Footer */}
       <footer className="bg-base-100  p-4 shadow-md shadow-gray-800">
         <div className="max-w-screen-2xl mx-auto">
-          <p>© 2024 Your Company. All rights reserved.</p>
+          <p>© 2024 Your Company. All rights reserved.</p> 
         </div>
       </footer>
     </div>

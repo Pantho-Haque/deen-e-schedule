@@ -12,7 +12,7 @@ import EventSchedule from "@/components/eventSchedule";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Home() {
+export default function Home() { 
   const [des, setDes] = useState("");
   const [startTime, setStartTime] = useState('09:00');
   const [endTime, setEndTime] = useState('18:00');
